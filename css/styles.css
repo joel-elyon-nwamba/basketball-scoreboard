@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    width: 575px;
+    margin: auto;
+    height: 300px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: #1B244A;;
+}
+
+.container-two {
+    text-align: center;
+    background-color: #080001; 
+    padding: 10px;
+}
+
+#home-score, 
+#guest-score {
+   font-size: 100px;
+    color: #F94F6D;
+    margin: 0 auto;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}       
