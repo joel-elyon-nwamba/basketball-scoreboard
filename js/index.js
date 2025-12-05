@@ -8,9 +8,7 @@ const homeScore1 = document.getElementById("home-add-1");
 const homeScore2 = document.getElementById("home-add-2");
 const homeScore3 = document.getElementById("home-add-3");
 
-// console.log(homeScore1);
-// console.log(homeScore2);
-// console.log(homeScore3);
+
 
 // Guest points 
 
@@ -18,12 +16,7 @@ const guestScore1 = document.getElementById("guest-add-1");
 const guestScore2 = document.getElementById("guest-add-2");
 const guestScore3 = document.getElementById("guest-add-3");
 
-// console.log(guestScore1);
-// console.log(guestScore2);
-// console.log(guestScore3);
 
-// console.log(guestScore);
-// console.log(homeScore);
 
 // Variables
  let homeCount = 0;
