@@ -50,4 +50,24 @@ homeScore3.addEventListener("click", addThree);
     homeScore.textContent = homeCount;
  }
 
-//  
+ guestScore1.addEventListener("click", guestAddOne);
+ guestScore2.addEventListener("click", guestAddTwo);
+ guestScore3.addEventListener("click", guestAddThree);
+//  Score points for guest
+function guestAddOne() {
+    guestCount += 1;
+    console.log(guestCount);
+    guestScore.textContent = guestCount;
+}
+
+function guestAddTwo() {
+    guestCount += 2;
+    console.log(guestCount);
+    guestScore.textContent = guestCount;
+}
+
+function guestAddThree() {
+    guestCount += 3;
+    console.log(guestCount);
+    guestScore.textContent = guestCount;
+}
